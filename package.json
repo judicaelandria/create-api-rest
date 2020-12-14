@@ -1,6 +1,6 @@
 {
   "name": "create-api-rest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a CLI tool to create a new rest api app",
   "main": "src/index.js",
   "bin": {
