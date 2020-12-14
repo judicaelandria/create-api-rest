@@ -60,6 +60,7 @@ export async function createRestAPI(options) {
       title: "Installing dependencies",
       task: () =>
         projectInstall({
+          prefer: options.npm == true ? "npm" : "yarn",
           cwd: options.targetDirectory,
         }),
     },
@@ -67,6 +68,6 @@ export async function createRestAPI(options) {
 
   await tasks.run();
 
-  console.log("%s Project ready", chalk.green.bold("DONE"));
+  console.log("%s Project ready, Happy hacking! ", chalk.green.bold("DONE"));
   return true;
 }

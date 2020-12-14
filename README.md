@@ -1,5 +1,7 @@
 ## CLI tool to bootstrap new rest api app
 
+![create-api-rest.gif](create-api-rest.gif)
+
 use this command to start
 ```
 npx create-rest-api

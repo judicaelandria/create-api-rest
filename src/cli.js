@@ -7,6 +7,7 @@ function parseArguments(rawArgs) {
     {
       "--git": Boolean,
       "--yes": Boolean,
+      "--use-npm": Boolean,
       "-g": "--git",
       "-y": "--yes",
     },
@@ -16,6 +17,7 @@ function parseArguments(rawArgs) {
   return {
     skipPrompts: args["--yes"] || false,
     git: args["--git"] || false,
+    npm: args["--use-npm"] || false,
     template: args._[0],
   };
 }

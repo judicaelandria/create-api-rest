@@ -1,6 +1,6 @@
 {
   "name": "create-api-rest",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a CLI tool to create a new rest api app",
   "main": "src/index.js",
   "bin": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/judicaelandria/create-rest-api.git"
+    "url": "git+https://github.com/judicaelandria/create-api-rest.git"
   },
   "bugs": {
-    "url": "https://github.com/judicaelandria/create-rest-api/issues"
+    "url": "https://github.com/judicaelandria/create-api-rest/issues"
   },
   "keywords": [
     "javascript",
@@ -34,7 +34,6 @@
     "inquirer": "^7.3.3",
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
-    "ora": "^5.1.0",
     "pkg-install": "^1.0.0"
   }
 }
