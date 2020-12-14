@@ -1,6 +1,6 @@
 {
   "name": "create-api-rest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a CLI tool to create a new rest api app",
   "main": "src/index.js",
   "bin": {
@@ -25,7 +25,7 @@
     "bin"
   ],
   "author": "Judicael Andriamahandry",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "arg": "^5.0.0",
     "chalk": "^4.1.0",
